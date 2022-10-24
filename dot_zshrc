@@ -125,3 +125,7 @@ eval "$(zoxide init zsh)"
 alias cd=z
 
 export DISPLAY=:0.0
+
+# >>> xmake >>>
+[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+# <<< xmake <<<
