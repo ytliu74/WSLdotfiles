@@ -42,7 +42,7 @@ ZSH_THEME="af-magic"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -121,6 +121,7 @@ export https_proxy="http://${hostip}:7890"
 export http_proxy="http://${hostip}:7890"
 
 export PATH=/home/henry/.local/bin:$PATH
+export PATH="/mnt/c/Users/24162/AppData/Local/Programs/Microsoft VS Code/bin":$PATH
 
 eval "$(zoxide init zsh)"
 alias cd=z
@@ -134,3 +135,11 @@ export DISPLAY=:0.0
 alias xm="xmake -w"
 alias xmr="xmake -w && xmake run"
 alias xmk="xmake project -k compile_commands"
+
+export desktop="/mnt/c/Users/24162/Desktop"
+
+alias git-cz="git-cz --disable-emoji"
+
+alias lv="lvim"
+
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
