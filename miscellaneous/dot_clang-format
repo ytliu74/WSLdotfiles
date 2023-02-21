@@ -8,7 +8,7 @@ IndentCaseLabels: true
 
 AccessModifierOffset: -2
 
-ColumnLimit: 90
+ColumnLimit: 80
 
 AlignTrailingComments: true
 
